@@ -3,7 +3,6 @@
     <!--
 java - forma de pagamento, nome, telefone, email, CEP & valor de doação
 -->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -161,6 +160,7 @@ java - forma de pagamento, nome, telefone, email, CEP & valor de doação
         }
         .roda .down_down img.hover{
             transform: scale(1.2);
+            color: white;
         }
         .link {
         display: inline-block;
@@ -174,6 +174,198 @@ java - forma de pagamento, nome, telefone, email, CEP & valor de doação
         object-fit: contain;
         transition: transform 0.3s;
         }
+
+    
+        .conteudo{
+            background-color: #0d00ff;
+            color: rgb(7, 11, 10);
+            text-align: justify;
+            padding: 50px 100px 40px 100px;
+            background-image: url(imagens/mold01.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+
+      
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.fl{ float:left; }
+.fr{ float: right; }
+
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; 
+}
+
+body {
+    background: #9291e9;
+    font-family: 'Droid Sans', sans-serif;
+    line-height: 1;
+    font-size: 16px;    
+}
+.pricing-table {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    padding: 10px;
+    padding-right: 0;
+}
+.pricing-table .heading{
+    color: #f5f5f5;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+}
+.block{
+    width: 30%;    
+    margin: 0 15px;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;    
+
+}
+
+.title,.pt-footer{
+    color: #FEFEFE;
+    text-transform: capitalize;
+    line-height: 2.5;
+    position: relative;
+}
+.content{
+    position: relative;
+    color: #FEFEFE;
+    padding: 20px 0 10px 0;
+}
+
+.content:after, .content:before,.pt-footer:before,.pt-footer:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+.pt-footer:after,.pt-footer:before{
+    top:0;
+}
+.content:after,.pt-footer:after {
+	border-color: rgba(136, 183, 213, 0);	
+	border-width: 5px;
+	margin-left: -5px;
+}
+
+.price{
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0.625rem;
+}
+.price span{    
+    font-size: 6rem;
+    letter-spacing: 8px;
+    font-weight: bold;        
+}
+.price sup{
+    font-size: 1.5rem;    
+    position: absolute;    
+    top: 12px;
+    left: -12px;
+}
+.hint{
+    font-style: italic;
+    font-size: 0.9rem;
+}
+.features{
+    list-style-type: none;    
+    background: #FFFFFF;
+    text-align: left;
+    color: #9C9C9C;
+    padding:30px 22%;
+    font-size: 0.9rem;
+}
+.features li{
+    padding:15px 0;
+    width: 100%;
+}
+.features li span{
+   padding-right: 0.4rem; 
+}
+.pt-footer{
+    font-size: 0.95rem;
+    text-transform: capitalize;
+}
+
+.personal .title{        
+    background: #4c60dd;    
+}
+.personal .content,.personal .pt-footer{
+    background: #4c60dd;
+}
+.personal .content:after{	
+	border-top-color: #4c60dd;	
+}
+.personal .pt-footer:after{
+    border-top-color: #FFFFFF;
+}
+/*PROFESSIONAL*/
+.professional .title{
+    background: #4c60dd;
+}
+.professional .content,.professional .pt-footer{
+    background: #4c60dd;
+}
+.professional .content:after{	
+	border-top-color: #4c60dd;	
+}
+.professional .pt-footer:after{
+    border-top-color: #FFFFFF;
+}
+/*BUSINESS*/
+.business .title{
+    background: #4c60dd;
+}
+.business .content,.business .pt-footer{
+    background: #4c60dd;
+}
+.business .content:after{	
+	border-top-color: #4c60dd;	
+}
+.business .pt-footer:after {	
+	border-top-color: #FFFFFF;	
+}
+
+
+.button01{
+    background-color: #4c60dd;
+}
+
+      
     </style>
 </head>
 <body>
@@ -186,7 +378,7 @@ java - forma de pagamento, nome, telefone, email, CEP & valor de doação
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mr-auto text-center">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">HOME</a>
+                    <a class="nav-link" href="💻 Home.html">HOME</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">DOAÇÃO</a>
@@ -264,17 +456,127 @@ java - forma de pagamento, nome, telefone, email, CEP & valor de doação
           </div>
         </div>
       
+
+
+        <div class="conteudo" align="center">
+            <h2>Como você pode ajudar hoje?</h2>
+            <p><h2>Conheça alguns dos nossos projetos:</h2></p>
+            </div>
+           
+            <div class="wrapper">
+                
+                <div class="pricing-table group">
+                    <h1 class="heading">
+                       Valores da doação
+                    </h1>
+                   
+                    <div class="block personal fl">
+                        <h2 class="title"></h2>
+                      
+                        <div class="content">
+                            <p class="price">
+                                <sup>$</sup>
+                                <span>45,00</span>
+                                
+                            </p>
+                            <p class="hint"></p>
+                        </div>
+                        
+                        <ul class="features">
+                            <li><span class="fontawesome-cog"></span>Com esse valor damos vós aos acontecimentos e ganhamos mais força.</li>
+                           
+                        </ul>
+                     
+                        <div class="pt-footer">
+                            <a href="cartão.html"><button class="button01">Realizar Doação</button></a>
+                        </div>
+                       
+                    </div>
+                  
+                    <div class="block professional fl">
+                        <h2 class="title"></h2>
+                       
+                        <div class="content">
+                            <p class="price">
+                                <sup>$</sup>
+                                <span>70,00</span>
+                              
+                            </p>
+                           <br>
+                           <br>
+                           <br>
+                        </div>
+                        
+                        <ul class="features">
+                            <li><span class="fontawesome-cog"></span>Ajuda no quadro crítico dos animais.</li>
+                          
+                        </ul>
+                        
+                        <div class="pt-footer">
+                            <a href="cartão.html"><button class="button01">Realizar Doação</button></a>
+                        </div>
+                    
+                    </div>
+                    
+                    <div class="block business fl">
+                        <h2 class="title"></h2>
+                       
+                        <div class="content">
+                            <p class="price">
+                                <sup>$</sup>
+                                <span>120,00</span>
+                               
+                            </p>
+                           
+                        </div>
+                        
+                        <ul class="features">
+                            <li><span class="fontawesome-cog"></span>Possibilita tratamentos adequados para os animais.</li>
+                          <br><br>
+                        </ul>
+                        
+
+
+                        
+                        <div class="pt-footer">
+                            <a href="cartão.html"><button class="button01">Realizar Doação</button></a>
+                        </div>
+                        
+                       
+                    </div>
+                    
+                </div>
+               
+            </div>
+        
+            <div align="center">
+            <p><h1>Se preferir, doe o valor que desejar :) </h1> </p>
+</div>
+<div class="pt-footer" align="center">
+    <a href="cartão.html"><button class="button01">Realizar Doação</button></a>
+</div>
+<br><br><br>
+      
+
+
         <div class="roda">
           <br><br><br>
           <div class="down_up">
+          
           <div class="down_meio">Nossas redes sociais<br>#FNG</div>
           <div class="down_down">
               <span><a href="https://www.tiktok.com/@fauna.guadians?is_from_webapp=1&sender_device=pc" class="link"><img src="img/tk.png" alt="tiktok" width="35" height="35"></a><a href="https://www.tiktok.com/@fauna.guadians?is_from_webapp=1&sender_device=pc" class="link2"><p class="link" href="https://www.tiktok.com/@fauna.guadians?is_from_webapp=1&sender_device=pc">@fauna.guardians</p></span>
               <span><a href="https://www.instagram.com/faunaguardians/" class="link"><img src="img/in.png" alt="instagram" width="35" height="35"></a> <a href="https://www.instagram.com/faunaguardians/" class="link2"><p class="link" href="https://www.instagram.com/faunaguardians/">Fauna Guardians</p></span>
               <span><a href="https://www.youtube.com/channel/UCfz0MTQYrzC8WVH8FRD7x5Q" class="link"><img src="img/yt2.png" alt="youtube" width="35" height="35"></a><p class="link" href="https://www.youtube.com/channel/UCfz0MTQYrzC8WVH8FRD7x5Q">@faunaguardians</p></span>
+              <br><br>
+              <div align="center">
+                <h4>Esse site é usado somente para fins educacionais. As imagens presentes neles não são de autoria do dono do site!!!</h4> 
+                
+                </div>
           </div>
       </div>
       </section>
+    
       <script src="js/login.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -286,6 +588,12 @@ java - forma de pagamento, nome, telefone, email, CEP & valor de doação
                 $('body').toggleClass('dark-mode');
             });
         });
+
+       
     </script>
+
+
+
+
 </body>
 </html>
