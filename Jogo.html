@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo</title>
+    <link rel="shortcut icon" href="Img/logo.png" type="image/x-icon">
+    <style>     
+        .cabe{
+            width: 100%;
+            height: 120px;
+            background-color: #013EFF;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    
+        .conteudo{
+
+                width: 548px; 
+                float: left;
+        }
+        .conteudo3{
+                width: 100%; 
+                height: 500px;
+                float: center;
+              
+                padding-top: 15px;
+                padding-bottom: 17px;
+                padding-left: 25px;
+                padding-right: 5px;
+        }
+        
+        .conteudo4{
+            border: solid rgb(0, 0, 0) 3px;
+            width: 450px; 
+            height: 450x;
+            float: left;
+            margin: 25PX;
+        }
+
+        .conteudo5{
+            width: 450px; 
+            height: 450x;
+            float: left;
+            
+        }
+        
+        .cont_01{
+                border: solid rgb(0, 0, 0) 3px;
+                width: 50px; /*Horizontal*/
+                height: 50px; /*H altura, Vertical*/
+                float: left;
+                color: black;
+                background-color: white;
+        }
+        .cont_02{
+                border: solid rgb(0, 0, 0) 3px;
+                width: 50px; /*Horizontal*/
+                height: 50px; /*H altura, Vertical*/
+                float: left;
+                color: black;
+                background-color: white;
+        }
+        .cont_02:hover{
+                border: solid rgb(0, 0, 0) 3px;
+                width: 50px; /*Horizontal*/
+                height: 50px; /*H altura, Vertical*/
+                float: left;
+                background-color: rgb(27, 255, 27);
+                color: black;
+        }
+        .cont_01:hover{
+                border: solid rgb(0, 0, 0) 3px;
+                width: 50px; /*Horizontal*/
+                height: 50px; /*H altura, Vertical*/
+                float: left;
+                background-color: red;
+                color: black;
+                }
+        .cor_text{
+            color: white;
+        }
+        h2{
+                font-size: 40px;
+                text-align: center;
+                margin: 0;
+        }
+        h3{
+            text-align: center;
+            margin: 0;
+        }
+        .conteudo2{
+          margin-top: 140PX;
+                width: 360px; /*Horizontal*/
+                height: 100px; /*H altura, Vertical*/
+                float: left;
+                text-align: center;
+        }
+        
+        }
+        .clear{
+                clear: both;
+        }
+        .itemA{
+    background-image: url(img/450\ x\ 450\ \(estática\).png);
+    width: 450px; 
+    height: 450px;
+    }     
+    .p{
+        background: linear-gradient(to bottom, #99ff84, #4b48ff);
+        margin: 0px;
+    }   
+    .a{
+        background-color:#013EFF;
+        float: left;
+    }
+    .opções{
+            float: center;   
+    }
+    .qw{
+        display: flex;
+        float: right;
+    }
+    .wq{
+        display: flex;
+        float: right;
+    }
+    .link {
+        display: inline-block;
+        margin-right: 20px;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+        }
+        .roda{
+            height: 250px;
+            background-color: #383838;
+            color: white;
+        }
+        .roda .dowm_up{
+            text-align: center;
+            color: white;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+            font-size: 4em;
+        }
+        .roda .down_meio{
+            text-align: center;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+            font-size: 1.5em;
+            text-align: center;
+        }
+        .roda .down_down{
+            text-align: center;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+            font-size: 1.5em;
+            text-align: center;
+          
+            
+        }
+        .link2{
+        display: inline-block;
+        margin-right: 20px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-align: center;
+        }
+        .link:hover{
+        background-color: #84bbff;
+        color: rgb(255, 255, 255);
+        }
+</style>
+</head>
+<body class="p">
+    <body>
+    <header>
+        <div class="cabe">
+        <div class="a">
+        <img src="img/logo.png" alt="logo" width="40" height="40" class="logos">
+        </div>
+        <div class="opções">
+        <a href="Sh.html" class="link" href="Sh.html"><p>Home</p></a>
+        <a href="doação(página inicial).html" class="link" href="doação(página inicial).html"><p>Doação</p></a>
+        <a href="Jogo.html" class="link" href=""><p>Jogo</p></a>
+        <a href="loja.html" class="link" href="loja.html"><p>Loja</p></a>
+        </div>
+        <div class="qw">  
+            <ul>
+                <span class="wp"><a href="Login2.html" class="link"><img src="img/lu.png" alt="ícone de usuário" width="40" height="40" ></a>
+                <span class="qw"><a href="Modoescuro.html" class="link"><img src="img/es.png" alt="modo claro/escuro" width="40" height="40"></a>
+            </ul>
+        </div>
+    </header>
+                                    <div class="conteudo3">
+        
+                                        
+        <div class="conteudo">
+            <div class="cont_01">
+                        <h2>C</h2></div>
+        
+            <div class="cont_01">
+                        <h2>T</h2></div>
+            
+            <div class="cont_01">
+            <h2>S</h2></div>
+          
+            <div class="cont_02">
+                <h2>F</h2></div>
+        
+            <div class="cont_01">
+            <h2>A</h2></div>
+        
+            <div class="cont_01">
+                <h2>T</h2></div>
+        
+                <div class="cont_01">
+                    <h2>R</h2></div>
+        
+                    <div class="cont_01">
+                        <h2>F</h2></div>
+        
+                        <div class="cont_01">
+                            <h2>O</h2></div>
+        
+                            <div class="cont_01">
+                                <h2>G</h2></div>
+                
+                    <div class="cont_02">
+                                <h2>S</h2></div>
+                    
+                    <div class="cont_01">
+                    <h2>O</h2></div>
+                  
+                    <div class="cont_01">
+                        <h2>M</h2></div>
+                
+                    <div class="cont_01">
+                    <h2>V</h2></div>
+                
+                    <div class="cont_02">
+                        <h2>A</h2></div>
+                
+                        <div class="cont_01">
+                            <h2>N</h2></div>
+                
+                            <div class="cont_01">
+                                <h2>U</h2></div>
+                
+                                <div class="cont_01">
+                                    <h2>R</h2></div>
+        
+                                    <div class="cont_01">
+                                        <h2>M</h2></div>
+                        
+                            <div class="cont_02">
+                                        <h2>A</h2></div>
+                            
+                            <div class="cont_02">
+                            <h2>I</h2></div>
+                          
+                            <div class="cont_01">
+                                <h2>A</h2></div>
+                        
+                            <div class="cont_01">
+                            <h2>L</h2></div>
+                        
+                            <div class="cont_01">
+                                <h2>N</h2></div>
+                        
+                                <div class="cont_01">
+                                    <h2>T</h2></div>
+                        
+                                    <div class="cont_02">
+                                        <h2>U</h2></div>
+                        
+                                        <div class="cont_01">
+                                            <h2>L</h2></div>
+        
+                                            <div class="cont_01">
+                                                <h2>Z</h2></div>
+                                
+                                    <div class="cont_02">
+                                                <h2>I</h2></div>
+                                    
+                                    <div class="cont_01">
+                                    <h2>L</h2></div>
+                                  
+                                    <div class="cont_02">
+                                        <h2>A</h2></div>
+                                
+                                    <div class="cont_01">
+                                    <h2>B</h2></div>
+                                
+                                    <div class="cont_01">
+                                        <h2>E</h2></div>
+                                
+                                        <div class="cont_01">
+                                            <h2>A</h2></div>
+                                
+                                            <div class="cont_01">
+                                                <h2>L</h2></div>
+                                
+                                                <div class="cont_01">
+                                                    <h2>A</h2></div>
+        
+                                                    <div class="cont_02">
+                                                        <h2>N</h2></div>
+                                        
+                                            <div class="cont_02">
+                                                        <h2>N</h2></div>
+                                            
+                                            <div class="cont_01">
+                                            <h2>L</h2></div>
+                                          
+                                            <div class="cont_01">
+                                                <h2>O</h2></div>
+                                        
+                                            <div class="cont_02">
+                                            <h2>M</h2></div>
+                                        
+                                            <div class="cont_01">
+                                                <h2>F</h2></div>
+                                        
+                                                <div class="cont_02">
+                                                    <h2>V</h2></div>
+                                        
+                                                    <div class="cont_02">
+                                                        <h2>O</h2></div>
+                                        
+                                                        <div class="cont_02">
+                                                            <h2>U</h2></div>
+        
+                                                            <div class="cont_02">
+                                                                <h2>D</h2></div>
+                                                
+                                                    <div class="cont_02">
+                                                                <h2>O</h2></div>
+                                                    
+                                                    <div class="cont_02">
+                                                    <h2>A</h2></div>
+                                                  
+                                                    <div class="cont_02">
+                                                        <h2>R</h2></div>
+                                                
+                                                    <div class="cont_01">
+                                                    <h2>J</h2></div>
+                                                
+                                                    <div class="cont_02">
+                                                        <h2>I</h2></div>
+                                                
+                                                        <div class="cont_01">
+                                                            <h2>T</h2></div>
+                                                
+                                                            <div class="cont_01">
+                                                                <h2>R</h2></div>
+                                                
+                                                                <div class="cont_01">
+                                                                    <h2>S</h2></div>
+             
+                                                                    <div class="cont_01">
+                                                                        <h2>V</h2></div>
+                                                                
+                                                                    <div class="cont_02">
+                                                                    <h2>Z</h2></div>
+                                                                
+                                                                    <div class="cont_01">
+                                                                        <h2>L</h2></div>
+                                                                
+                                                                        <div class="cont_01">
+                                                                            <h2>L</h2></div>
+                                                                
+                                                                            <div class="cont_01">
+                                                                                <h2>M</h2></div>
+                                                                
+                                                                                <div class="cont_01">
+                                                                                    <h2>L</h2></div>
+         <div class="cont_02">
+         <h2>N</h2></div>           
+         
+         <div class="cont_01">
+            <h2>J</h2></div>
+        
+            <div class="cont_01">
+                <h2>R</h2></div>
+        
+                <div class="cont_01">
+                    <h2>B</h2></div>
+        
+                    <div class="cont_02">
+                        <h2>A</h2></div>
+        
+                        <div class="cont_01">
+                            <h2>E</h2></div>
+        
+                            <div class="cont_01">
+                                <h2>B</h2></div>
+        
+                                <div class="cont_01">
+                                    <h2>M</h2></div>
+        
+                                    <div class="cont_01">
+                                        <h2>U</h2></div>
+        
+                                        <div class="cont_01">
+                                            <h2>N</h2></div>
+                                            
+        <div class="cont_02">
+         <h2>A</h2></div>           
+         
+         <div class="cont_01">
+            <h2>O</h2></div>
+        
+            <div class="cont_01">
+                <h2>N</h2></div>
+        
+                <div class="cont_02">
+                    <h2>M</h2></div>
+        
+                    <div class="cont_01">
+                        <h2>S</h2></div>
+        
+                        <div class="cont_01">
+                            <h2>U</h2></div>
+        
+                            <div class="cont_01">
+                                <h2>F</h2></div>
+        
+                                <div class="cont_01">
+                                    <h2>E</h2></div>
+        
+                                    <div class="cont_01">
+                                        <h2>A</h2></div>
+        
+                                        <div class="cont_01">
+                                            <h2>B</h2></div>
+        
+        <div class="cont_02">
+            <h2>G</h2></div>           
+            
+            <div class="cont_02">
+               <h2>U</h2></div>
+           
+               <div class="cont_02">
+                   <h2>A</h2></div>
+           
+                   <div class="cont_02">
+                       <h2>R</h2></div>
+           
+                       <div class="cont_02">
+                           <h2>D</h2></div>
+           
+                           <div class="cont_02">
+                               <h2>I</h2></div>
+           
+                               <div class="cont_02">
+                                   <h2>A</h2></div>
+           
+                                   <div class="cont_02">
+                                       <h2>N</h2></div>
+           
+                                       <div class="cont_02">
+                                           <h2>S</h2></div>
+           
+                                           <div class="cont_01">
+                                               <h2>U</h2></div>
+                                               
+                                               
+          </div>
+          <div class="conteudo4">
+            <div class="itemA"></div>
+           </div>
+          <div class="conteudo2">
+            <h3>Como Jogar:</h3>
+                    <p>
+                        Para jogar passe o mouse em cima das letras, caso apareça uma cor vermelha, isso significa
+                        que essa letra não tem nada a ver, se aparecer uma letra verde significa que está letra 
+                        faz parte de alguma palavra
+                    </p>
+                    
+                    <h3>Palavras:</h3>
+                    <br>
+                    <li>Fauna</li>
+                    <li>Animais</li>
+                    <li>Guardians</li>
+                    <li>Amazonia</li>
+                    <li>VouDoar</li>
+          </div>
+            <div class="clear"></div>
+                                            </div>
+        
+                                            
+                                            <div class="roda">
+                                                <br><br><br>
+                                                <div class="down_up"></div>
+                                                <div class="down_meio">Nossas redes sociais<br>#FNG</div>
+                                                <div class="down_down">
+                                                    
+                                                    <span><a href="https://www.tiktok.com/@fauna.guadians?is_from_webapp=1&sender_device=pc" class="link"><img src="img/tk.png" alt="tiktok" width="35" height="35"></a><a href="https://www.tiktok.com/@fauna.guadians?is_from_webapp=1&sender_device=pc" class="link2"><p>@fauna.guardians</p><p>(55)14 93949-3423</p></a></span>
+                                                    <span><a href="https://www.instagram.com/faunaguardians/" class="link"><img src="img/in.png" alt="instagram" width="35" height="35"></a> <a href="https://www.instagram.com/faunaguardians/"class="link2"><p>Fauna Guardians</p><p>(55)14 93949-3423</p></a></span>
+                                                    <span><a href="https://www.youtube.com/channel/UCfz0MTQYrzC8WVH8FRD7x5Q" class="link"><img src="img/yt.webp" alt="youtube" width="35" height="35"></a><a href="https://www.youtube.com/channel/UCfz0MTQYrzC8WVH8FRD7x5Q" class="link2"><p>@faunaguardians</p><p>(55)14 93949-3423</p></a></span>
+                                                    
+                                                </div>
+                                            </div>
